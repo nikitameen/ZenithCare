@@ -1,0 +1,12 @@
+<h2 mat-dialog-title>Example Dialog</h2>
+<mat-dialog-content>
+  <p>This is an example dialog in ZenithCare.</p>
+  <p>You can add any content here!</p>
+  @if (data?.message) {
+    <p>Data received: {{ data.message }}</p>
+  }
+</mat-dialog-content>
+<mat-dialog-actions align="end">
+  <button mat-button (click)="onCancel()">Cancel</button>
+  <button mat-button color="primary" (click)="onConfirm()">Confirm</button>
+</mat-dialog-actions>
