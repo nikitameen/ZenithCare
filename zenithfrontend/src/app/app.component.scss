@@ -159,7 +159,7 @@ body {
     color: $dark-gray;
     font-weight: 500;
     position: relative;
-    padding: 0.5rem 0;
+    padding: 0.2rem 0;
     
     i {
       margin-right: 6px;
@@ -216,7 +216,7 @@ body {
   background-color: $primary-color;
   color: $white;
   border: none;
-  margin-left: 0.5rem;
+  margin-left: 0.2rem;
   position: relative;
   overflow: hidden;
   @include flex-center;
@@ -431,12 +431,12 @@ body {
 
 // Database services grid
 .database-services {
-  margin-top: 4rem;
+ 
   animation: fadeIn 1s ease-out;
 }
 
 .database-title {
-  font-size: 1.8rem;
+  font-size: 2.8rem;
   color: $primary-color;
   margin-bottom: 2rem;
   position: relative;
