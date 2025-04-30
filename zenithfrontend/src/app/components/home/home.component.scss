@@ -1,0 +1,362 @@
+// Home Component SCSS
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+:host {
+  display: block;
+}
+
+.about {
+  font-family: 'Poppins', sans-serif;
+  padding: 2rem 0;
+  
+  & > p {
+    text-align: center;
+    margin: 0 auto 3rem;
+    max-width: 900px;
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #566a80;
+    padding: 0 2rem;
+  }
+}
+
+// Section Header styling
+.section-header {
+  margin-bottom: 2.5rem;
+  text-align: center;
+  position: relative;
+  
+  h2 {
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: #2c3e50;
+    margin-bottom: 0.5rem;
+    letter-spacing: -0.5px;
+    position: relative;
+    display: inline-block;
+    padding-top: 17px;
+  }
+  
+  .section-icon {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #3498db;
+  }
+  
+  .section-underline {
+    width: 80px;
+    height: 4px;
+    background: linear-gradient(90deg, #3498db, #2980b9);
+    margin: 0.8rem auto 0;
+    border-radius: 4px;
+  }
+}
+
+// About cards styling
+.about-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  padding: 0 2rem;
+  margin-bottom: 4rem;
+  
+  .about-card {
+    background-color: #f8fafc;
+    border-radius: 12px;
+    padding: 2rem;
+    transition: all 0.3s ease;
+    border: 1px solid rgba(230, 236, 241, 0.8);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.03);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    
+    &:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 15px 30px rgba(0, 0, 0, 0.07);
+      border-color: rgba(52, 152, 219, 0.2);
+    }
+    
+    .about-card-icon {
+      font-size: 2.5rem;
+      margin-bottom: 1.5rem;
+      color: #3498db;
+    }
+    
+    h3 {
+      font-size: 1.3rem;
+      font-weight: 600;
+      margin-bottom: 1rem;
+      color: #2c3e50;
+    }
+    
+    p {
+      color: #566a80;
+      line-height: 1.7;
+      font-size: 0.95rem;
+    }
+  }
+}
+
+// Database Products Section
+.database-services {
+  margin: 4rem 0;
+  padding: 0 2rem;
+  
+  .database-title {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #2c3e50;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  
+  .db-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+  }
+  
+  .db-card {
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    overflow: hidden;
+    transition: all 0.3s ease;
+    border: 1px solid #e1e1e1;
+    
+    &:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 12px 20px rgba(0, 0, 0, 0.1);
+    }
+    
+    .db-header {
+      display: flex;
+      align-items: center;
+      padding: 1.5rem;
+      background-color: #f8f9fa;
+      border-bottom: 1px solid #e1e1e1;
+      
+      .db-icon {
+        font-size: 2rem;
+        margin-right: 1rem;
+      }
+      
+      .db-title-wrap {
+        h3 {
+          font-size: 1.2rem;
+          margin-bottom: 0.2rem;
+          color: #2c3e50;
+        }
+        
+        .db-subtitle {
+          font-size: 0.9rem;
+          color: #6c757d;
+        }
+      }
+    }
+    
+    .db-content {
+      padding: 1.5rem;
+      
+      p {
+        color: #566a80;
+        line-height: 1.6;
+        margin-bottom: 1.2rem;
+      }
+      
+      .db-features {
+        margin: 1rem 0;
+        padding-left: 1.5rem;
+        
+        li {
+          margin-bottom: 0.5rem;
+          color: #566a80;
+          position: relative;
+          
+          &:before {
+            content: "•";
+            color: #3498db;
+            position: absolute;
+            left: -1rem;
+          }
+        }
+      }
+      
+      .db-cta {
+        margin-top: 1.5rem;
+        text-align: center;
+        
+        .db-btn {
+          background-color: #3498db;
+          color: white;
+          border: none;
+          padding: 0.7rem 1.2rem;
+          border-radius: 6px;
+          font-weight: 500;
+          cursor: pointer;
+          transition: all 0.3s ease;
+          
+          &:hover {
+            background-color: #2980b9;
+            transform: translateY(-2px);
+          }
+          
+          i {
+            margin-right: 0.5rem;
+          }
+        }
+      }
+    }
+  }
+  
+  // Database Card Colors
+  .hcp-db .db-icon {
+    color: #27ae60;
+  }
+  
+  .employers-db .db-icon {
+    color: #f39c12;
+  }
+  
+  .formulary-db .db-icon {
+    color: #9b59b6;
+  }
+  
+  .hospital-db .db-icon {
+    color: #3498db;
+  }
+}
+
+// Services section styling
+.services {
+  background-color: #f8fafc;
+  padding: 4rem 2rem;
+  border-radius: 12px;
+  margin: 2rem 0 4rem;
+  
+  .services-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    
+    .service-item {
+      background-color: white;
+      border-radius: 12px;
+      padding: 2rem;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+      transition: all 0.3s ease;
+      
+      &:hover {
+        transform: translateY(-8px);
+        box-shadow: 0 15px 30px rgba(0, 0, 0, 0.08);
+      }
+      
+      .service-icon {
+        font-size: 2rem;
+        color: #3498db;
+        margin-bottom: 1.2rem;
+      }
+      
+      h3 {
+        font-size: 1.3rem;
+        font-weight: 600;
+        margin-bottom: 1rem;
+        color: #2c3e50;
+      }
+      
+      p {
+        color: #566a80;
+        line-height: 1.7;
+      }
+    }
+    
+    // Alternate colors for service icons
+    .service-item:nth-child(1) .service-icon { color: #3498db; }
+    .service-item:nth-child(2) .service-icon { color: #e74c3c; }
+    .service-item:nth-child(3) .service-icon { color: #27ae60; }
+    .service-item:nth-child(4) .service-icon { color: #f39c12; }
+  }
+}
+
+// Contact section styling
+.contact {
+  padding: 3rem 2rem;
+  background: #f8fafc;
+  border-radius: 12px;
+  
+  .contact-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2.5rem;
+    max-width: 900px;
+    margin: 0 auto;
+    
+    .contact-method {
+      background-color: white;
+      padding: 1.5rem 2rem;
+      border-radius: 10px;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      min-width: 260px;
+      transition: all 0.3s ease;
+      
+      &:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
+      }
+      
+      .contact-icon {
+        font-size: 1.5rem;
+        color: #3498db;
+      }
+      
+      .contact-text {
+        font-size: 1rem;
+        color: #2c3e50;
+        font-weight: 500;
+      }
+    }
+    
+    // Different colors for each contact method
+    .contact-method:nth-child(1) .contact-icon { color: #e74c3c; }
+    .contact-method:nth-child(2) .contact-icon { color: #3498db; }
+    .contact-method:nth-child(3) .contact-icon { color: #27ae60; }
+  }
+}
+
+// Responsive styles
+@media (max-width: 768px) {
+  .about > p {
+    font-size: 1rem;
+    padding: 0 1.5rem;
+  }
+  
+  .section-header h2 {
+    font-size: 1.8rem;
+  }
+  
+  .about-cards,
+  .services-list,
+  .db-grid {
+    grid-template-columns: 1fr;
+    padding: 0 1rem;
+  }
+  
+  .contact-info {
+    flex-direction: column;
+    gap: 1.5rem;
+    
+    .contact-method {
+      width: 100%;
+    }
+  }
+  
+  .database-services {
+    padding: 0 1rem;
+  }
+}
