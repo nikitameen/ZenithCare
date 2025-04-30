@@ -1,19 +1,55 @@
-<div class="modal-overlay">
-    <div class="modal-content">
-      <h2>Login</h2>
-  
-      <button (click)="loginWithGoogle()" class="login-btn google">Login with Google</button>
-      <button (click)="loginWithLinkedIn()" class="login-btn linkedin">Login with LinkedIn</button>
-  
-      <div class="separator">or</div>
-  
-      <form (ngSubmit)="loginWithEmail()">
-        <input type="email" [(ngModel)]="email" name="email" placeholder="Email" required />
-        <input type="password" [(ngModel)]="password" name="password" placeholder="Password" required />
-        <button type="submit" class="login-btn email">Login with Email</button>
-      </form>
-  
-      <button (click)="closeModal()" class="close-btn">×</button>
+<div class="login-container">
+    <h2>Login</h2>
+    
+    <div *ngIf="errorMessage" class="alert alert-danger">
+      {{ errorMessage }}
+    </div>
+    
+    <form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input 
+          type="email" 
+          id="email" 
+          formControlName="email" 
+          class="form-control" 
+          [ngClass]="{'is-invalid': loginForm.get('email')?.touched && loginForm.get('email')?.invalid}"
+        >
+        <div *ngIf="loginForm.get('email')?.touched && loginForm.get('email')?.invalid" class="invalid-feedback">
+          <div *ngIf="loginForm.get('email')?.errors?.['required']">Email is required</div>
+          <div *ngIf="loginForm.get('email')?.errors?.['email']">Please enter a valid email</div>
+        </div>
+      </div>
+      
+      <div class="form-group">
+        <label for="password">Password</label>
+        <input 
+          type="password" 
+          id="password" 
+          formControlName="password" 
+          class="form-control"
+          [ngClass]="{'is-invalid': loginForm.get('password')?.touched && loginForm.get('password')?.invalid}"
+        >
+        <div *ngIf="loginForm.get('password')?.touched && loginForm.get('password')?.invalid" class="invalid-feedback">
+          <div *ngIf="loginForm.get('password')?.errors?.['required']">Password is required</div>
+          <div *ngIf="loginForm.get('password')?.errors?.['minlength']">Password must be at least 6 characters</div>
+        </div>
+      </div>
+      
+      <div class="form-group">
+        <button type="submit" class="btn btn-primary" [disabled]="loginForm.invalid || loading">
+          {{ loading ? 'Logging in...' : 'Login' }}
+        </button>
+      </div>
+    </form>
+    
+    <div class="social-login">
+      <button class="btn btn-linkedin" (click)="loginWithLinkedIn()" [disabled]="loading">
+        <i class="fab fa-linkedin"></i> Login with LinkedIn
+      </button>
+    </div>
+    
+    <div class="register-link">
+      Don't have an account? <a routerLink="/register">Register</a>
     </div>
   </div>
-  

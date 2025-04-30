@@ -4,7 +4,7 @@ import { RouterOutlet } from '@angular/router';
 import { CommonModule } from '@angular/common';
 import { MatDialog } from '@angular/material/dialog';
 import { MatButtonModule } from '@angular/material/button';
-
+import { provideHttpClient } from '@angular/common/http';
 @Component({
   selector: 'app-root',
   imports: [CommonModule, MatButtonModule],
