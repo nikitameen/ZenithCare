@@ -1,0 +1,6 @@
+2025-04-30 23:58:14,901 [INFO] Extractor initialized.
+2025-04-30 23:58:14,902 [INFO] Reading companies from companies.json
+2025-04-30 23:58:14,903 [ERROR] Failed to load input JSON: [Errno 2] No such file or directory: 'companies.json'
+2025-04-30 23:58:14,904 [INFO] Extractor initialized.
+2025-04-30 23:58:14,904 [INFO] Reading companies from companies.json
+2025-04-30 23:58:14,904 [ERROR] Failed to load input JSON: [Errno 2] No such file or directory: 'companies.json'

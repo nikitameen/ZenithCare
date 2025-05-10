@@ -3,7 +3,7 @@
     "batch_size": 10,
     "workers": 4,
     "log_level": "INFO",
-    "input_file": "data/companies.csv",
-    "output_file": "data/company_info.json",
+    "input_file": "./data/companies.json",
+    "output_file": "./data/company_info.json",
     "max_companies": null
   }

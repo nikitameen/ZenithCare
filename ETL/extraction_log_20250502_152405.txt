@@ -1,0 +1,163 @@
+[2025-05-02 15:24:06] 
+=== Comprehensive Company Data Extractor ===
+[2025-05-02 15:24:06] Started at 2025-05-02 15:24:06
+
+[2025-05-02 15:24:06] Loaded 10 valid companies from c:\Users\nmeen\Documents\GitHub\ZenithCare\ETL\companies.json
+[2025-05-02 15:24:06] Initialized output CSV: c:\Users\nmeen\Documents\GitHub\ZenithCare\ETL\company_data_20250502_152405.csv
+[2025-05-02 15:24:06] Processing 10 companies...
+
+[2025-05-02 15:24:06] 
+[1/10] Processing: 2010 Biotech VSC, L.P.
+[2025-05-02 15:24:06] 
+Starting processing for: 2010 Biotech VSC, L.P. (TX)
+[2025-05-02 15:24:06] Starting data collection for: 2010 Biotech VSC, L.P. (TX)
+[2025-05-02 15:24:08] Retry 1 for https://www.sec.gov/cgi-bin/browse-edgar?company=2010+Biotech+VSC,+L.P.&owner=exclude&action=getcompany after 5 seconds (error: 403 Client Error: Forbidden for url: https://www.sec.gov/cgi-bin/browse-edgar?company=2010+Biotech+VSC,+L.P.&owner=exclude&action=getcompany)
+[2025-05-02 15:24:14] Retry 2 for https://www.sec.gov/cgi-bin/browse-edgar?company=2010+Biotech+VSC,+L.P.&owner=exclude&action=getcompany after 10 seconds (error: 403 Client Error: Forbidden for url: https://www.sec.gov/cgi-bin/browse-edgar?company=2010+Biotech+VSC,+L.P.&owner=exclude&action=getcompany)
+[2025-05-02 15:24:25] Retry 3 for https://www.sec.gov/cgi-bin/browse-edgar?company=2010+Biotech+VSC,+L.P.&owner=exclude&action=getcompany after 15 seconds (error: 403 Client Error: Forbidden for url: https://www.sec.gov/cgi-bin/browse-edgar?company=2010+Biotech+VSC,+L.P.&owner=exclude&action=getcompany)
+[2025-05-02 15:24:41] Failed to fetch https://www.sec.gov/cgi-bin/browse-edgar?company=2010+Biotech+VSC,+L.P.&owner=exclude&action=getcompany after 3 retries
+[2025-05-02 15:24:41] Completed data collection for 2010 Biotech VSC, L.P.. Saved raw data to c:\Users\nmeen\Documents\GitHub\ZenithCare\ETL\raw_data\2010_Biotech_VSC,_L.P._20250502_152441.json
+[2025-05-02 15:24:41] Starting LLM extraction...
+[2025-05-02 15:26:41] LLM extraction timed out after 2 minutes
+[2025-05-02 15:26:41] LLM extraction failed, using fallback data
+[2025-05-02 15:26:41] Completed processing for 2010 Biotech VSC, L.P. in 155.3 seconds (fetch: 35.3s, LLM: 120.0s). Found 1 locations.
+[2025-05-02 15:26:41] Wrote 1 rows to CSV
+[2025-05-02 15:26:41] 
+[2/10] Processing: 2011 GUARDIAN EQUITY FUND, L.L.C.
+[2025-05-02 15:26:41] 
+Starting processing for: 2011 GUARDIAN EQUITY FUND, L.L.C. (TX)
+[2025-05-02 15:26:41] Starting data collection for: 2011 GUARDIAN EQUITY FUND, L.L.C. (TX)
+[2025-05-02 15:26:42] Retry 1 for https://www.sec.gov/cgi-bin/browse-edgar?company=2011+GUARDIAN+EQUITY+FUND,+L.L.C.&owner=exclude&action=getcompany after 5 seconds (error: 403 Client Error: Forbidden for url: https://www.sec.gov/cgi-bin/browse-edgar?company=2011+GUARDIAN+EQUITY+FUND,+L.L.C.&owner=exclude&action=getcompany)
+[2025-05-02 15:26:48] Retry 2 for https://www.sec.gov/cgi-bin/browse-edgar?company=2011+GUARDIAN+EQUITY+FUND,+L.L.C.&owner=exclude&action=getcompany after 10 seconds (error: 403 Client Error: Forbidden for url: https://www.sec.gov/cgi-bin/browse-edgar?company=2011+GUARDIAN+EQUITY+FUND,+L.L.C.&owner=exclude&action=getcompany)
+[2025-05-02 15:26:59] Retry 3 for https://www.sec.gov/cgi-bin/browse-edgar?company=2011+GUARDIAN+EQUITY+FUND,+L.L.C.&owner=exclude&action=getcompany after 15 seconds (error: 403 Client Error: Forbidden for url: https://www.sec.gov/cgi-bin/browse-edgar?company=2011+GUARDIAN+EQUITY+FUND,+L.L.C.&owner=exclude&action=getcompany)
+[2025-05-02 15:27:15] Failed to fetch https://www.sec.gov/cgi-bin/browse-edgar?company=2011+GUARDIAN+EQUITY+FUND,+L.L.C.&owner=exclude&action=getcompany after 3 retries
+[2025-05-02 15:27:15] Completed data collection for 2011 GUARDIAN EQUITY FUND, L.L.C.. Saved raw data to c:\Users\nmeen\Documents\GitHub\ZenithCare\ETL\raw_data\2011_GUARDIAN_EQUITY_FUND,_L.L.C._20250502_152715.json
+[2025-05-02 15:27:15] Starting LLM extraction...
+[2025-05-02 15:29:15] LLM extraction timed out after 2 minutes
+[2025-05-02 15:29:15] LLM extraction failed, using fallback data
+[2025-05-02 15:29:15] Completed processing for 2011 GUARDIAN EQUITY FUND, L.L.C. in 154.6 seconds (fetch: 34.5s, LLM: 120.0s). Found 1 locations.
+[2025-05-02 15:29:15] Wrote 1 rows to CSV
+[2025-05-02 15:29:15] 
+[3/10] Processing: 2012 MULTI-FAMILY REAL ESTATE FUND, LLC
+[2025-05-02 15:29:15] 
+Starting processing for: 2012 MULTI-FAMILY REAL ESTATE FUND, LLC (TX)
+[2025-05-02 15:29:15] Starting data collection for: 2012 MULTI-FAMILY REAL ESTATE FUND, LLC (TX)
+[2025-05-02 15:29:17] Retry 1 for https://www.sec.gov/cgi-bin/browse-edgar?company=2012+MULTI-FAMILY+REAL+ESTATE+FUND,+LLC&owner=exclude&action=getcompany after 5 seconds (error: 403 Client Error: Forbidden for url: https://www.sec.gov/cgi-bin/browse-edgar?company=2012+MULTI-FAMILY+REAL+ESTATE+FUND,+LLC&owner=exclude&action=getcompany)
+[2025-05-02 15:29:23] Retry 2 for https://www.sec.gov/cgi-bin/browse-edgar?company=2012+MULTI-FAMILY+REAL+ESTATE+FUND,+LLC&owner=exclude&action=getcompany after 10 seconds (error: 403 Client Error: Forbidden for url: https://www.sec.gov/cgi-bin/browse-edgar?company=2012+MULTI-FAMILY+REAL+ESTATE+FUND,+LLC&owner=exclude&action=getcompany)
+[2025-05-02 15:29:34] Retry 3 for https://www.sec.gov/cgi-bin/browse-edgar?company=2012+MULTI-FAMILY+REAL+ESTATE+FUND,+LLC&owner=exclude&action=getcompany after 15 seconds (error: 403 Client Error: Forbidden for url: https://www.sec.gov/cgi-bin/browse-edgar?company=2012+MULTI-FAMILY+REAL+ESTATE+FUND,+LLC&owner=exclude&action=getcompany)
+[2025-05-02 15:29:50] Failed to fetch https://www.sec.gov/cgi-bin/browse-edgar?company=2012+MULTI-FAMILY+REAL+ESTATE+FUND,+LLC&owner=exclude&action=getcompany after 3 retries
+[2025-05-02 15:29:50] Completed data collection for 2012 MULTI-FAMILY REAL ESTATE FUND, LLC. Saved raw data to c:\Users\nmeen\Documents\GitHub\ZenithCare\ETL\raw_data\2012_MULTI-FAMILY_REAL_ESTATE_FUND,_LLC_20250502_152950.json
+[2025-05-02 15:29:50] Starting LLM extraction...
+[2025-05-02 15:31:50] LLM extraction timed out after 2 minutes
+[2025-05-02 15:31:50] LLM extraction failed, using fallback data
+[2025-05-02 15:31:50] Completed processing for 2012 MULTI-FAMILY REAL ESTATE FUND, LLC in 154.4 seconds (fetch: 34.4s, LLM: 120.0s). Found 1 locations.
+[2025-05-02 15:31:50] Wrote 1 rows to CSV
+[2025-05-02 15:31:50] 
+[4/10] Processing: 2013 Mieka PA/Johnson Oil Proj I
+[2025-05-02 15:31:50] 
+Starting processing for: 2013 Mieka PA/Johnson Oil Proj I (TX)
+[2025-05-02 15:31:50] Starting data collection for: 2013 Mieka PA/Johnson Oil Proj I (TX)
+[2025-05-02 15:31:51] Retry 1 for https://www.sec.gov/cgi-bin/browse-edgar?company=2013+Mieka+PA/Johnson+Oil+Proj+I&owner=exclude&action=getcompany after 5 seconds (error: 403 Client Error: Forbidden for url: https://www.sec.gov/cgi-bin/browse-edgar?company=2013+Mieka+PA/Johnson+Oil+Proj+I&owner=exclude&action=getcompany)
+[2025-05-02 15:31:57] Retry 2 for https://www.sec.gov/cgi-bin/browse-edgar?company=2013+Mieka+PA/Johnson+Oil+Proj+I&owner=exclude&action=getcompany after 10 seconds (error: 403 Client Error: Forbidden for url: https://www.sec.gov/cgi-bin/browse-edgar?company=2013+Mieka+PA/Johnson+Oil+Proj+I&owner=exclude&action=getcompany)
+[2025-05-02 15:32:09] Retry 3 for https://www.sec.gov/cgi-bin/browse-edgar?company=2013+Mieka+PA/Johnson+Oil+Proj+I&owner=exclude&action=getcompany after 15 seconds (error: 403 Client Error: Forbidden for url: https://www.sec.gov/cgi-bin/browse-edgar?company=2013+Mieka+PA/Johnson+Oil+Proj+I&owner=exclude&action=getcompany)
+[2025-05-02 15:32:25] Failed to fetch https://www.sec.gov/cgi-bin/browse-edgar?company=2013+Mieka+PA/Johnson+Oil+Proj+I&owner=exclude&action=getcompany after 3 retries
+[2025-05-02 15:32:25] Error processing 2013 Mieka PA/Johnson Oil Proj I: [Errno 2] No such file or directory: 'c:\\Users\\nmeen\\Documents\\GitHub\\ZenithCare\\ETL\\raw_data\\2013_Mieka_PA/Johnson_Oil_Proj_I_20250502_153225.json'
+[2025-05-02 15:32:25] Wrote 1 rows to CSV
+[2025-05-02 15:32:25] 
+[5/10] Processing: 210 Capital, LLC
+[2025-05-02 15:32:25] 
+Starting processing for: 210 Capital, LLC (TX)
+[2025-05-02 15:32:25] Starting data collection for: 210 Capital, LLC (TX)
+[2025-05-02 15:32:26] Retry 1 for https://www.sec.gov/cgi-bin/browse-edgar?company=210+Capital,+LLC&owner=exclude&action=getcompany after 5 seconds (error: 403 Client Error: Forbidden for url: https://www.sec.gov/cgi-bin/browse-edgar?company=210+Capital,+LLC&owner=exclude&action=getcompany)
+[2025-05-02 15:32:32] Retry 2 for https://www.sec.gov/cgi-bin/browse-edgar?company=210+Capital,+LLC&owner=exclude&action=getcompany after 10 seconds (error: 403 Client Error: Forbidden for url: https://www.sec.gov/cgi-bin/browse-edgar?company=210+Capital,+LLC&owner=exclude&action=getcompany)
+[2025-05-02 15:32:43] Retry 3 for https://www.sec.gov/cgi-bin/browse-edgar?company=210+Capital,+LLC&owner=exclude&action=getcompany after 15 seconds (error: 403 Client Error: Forbidden for url: https://www.sec.gov/cgi-bin/browse-edgar?company=210+Capital,+LLC&owner=exclude&action=getcompany)
+[2025-05-02 15:32:59] Failed to fetch https://www.sec.gov/cgi-bin/browse-edgar?company=210+Capital,+LLC&owner=exclude&action=getcompany after 3 retries
+[2025-05-02 15:32:59] Completed data collection for 210 Capital, LLC. Saved raw data to c:\Users\nmeen\Documents\GitHub\ZenithCare\ETL\raw_data\210_Capital,_LLC_20250502_153259.json
+[2025-05-02 15:32:59] Starting LLM extraction...
+[2025-05-02 15:34:59] LLM extraction timed out after 2 minutes
+[2025-05-02 15:34:59] LLM extraction failed, using fallback data
+[2025-05-02 15:34:59] Completed processing for 210 Capital, LLC in 154.4 seconds (fetch: 34.4s, LLM: 120.0s). Found 1 locations.
+[2025-05-02 15:34:59] Wrote 1 rows to CSV
+[2025-05-02 15:34:59] 
+[6/10] Processing: 212 Asset Fund, LLC
+[2025-05-02 15:34:59] 
+Starting processing for: 212 Asset Fund, LLC (TX)
+[2025-05-02 15:34:59] Starting data collection for: 212 Asset Fund, LLC (TX)
+[2025-05-02 15:35:00] Retry 1 for https://www.sec.gov/cgi-bin/browse-edgar?company=212+Asset+Fund,+LLC&owner=exclude&action=getcompany after 5 seconds (error: 403 Client Error: Forbidden for url: https://www.sec.gov/cgi-bin/browse-edgar?company=212+Asset+Fund,+LLC&owner=exclude&action=getcompany)
+[2025-05-02 15:35:06] Retry 2 for https://www.sec.gov/cgi-bin/browse-edgar?company=212+Asset+Fund,+LLC&owner=exclude&action=getcompany after 10 seconds (error: 403 Client Error: Forbidden for url: https://www.sec.gov/cgi-bin/browse-edgar?company=212+Asset+Fund,+LLC&owner=exclude&action=getcompany)
+[2025-05-02 15:35:17] Retry 3 for https://www.sec.gov/cgi-bin/browse-edgar?company=212+Asset+Fund,+LLC&owner=exclude&action=getcompany after 15 seconds (error: 403 Client Error: Forbidden for url: https://www.sec.gov/cgi-bin/browse-edgar?company=212+Asset+Fund,+LLC&owner=exclude&action=getcompany)
+[2025-05-02 15:35:34] Failed to fetch https://www.sec.gov/cgi-bin/browse-edgar?company=212+Asset+Fund,+LLC&owner=exclude&action=getcompany after 3 retries
+[2025-05-02 15:35:34] Completed data collection for 212 Asset Fund, LLC. Saved raw data to c:\Users\nmeen\Documents\GitHub\ZenithCare\ETL\raw_data\212_Asset_Fund,_LLC_20250502_153534.json
+[2025-05-02 15:35:34] Starting LLM extraction...
+[2025-05-02 15:37:34] LLM extraction timed out after 2 minutes
+[2025-05-02 15:37:34] LLM extraction failed, using fallback data
+[2025-05-02 15:37:34] Completed processing for 212 Asset Fund, LLC in 154.5 seconds (fetch: 34.5s, LLM: 120.0s). Found 1 locations.
+[2025-05-02 15:37:34] Wrote 1 rows to CSV
+[2025-05-02 15:37:34] 
+[7/10] Processing: 226 Records Inc
+[2025-05-02 15:37:34] 
+Starting processing for: 226 Records Inc (TX)
+[2025-05-02 15:37:34] Starting data collection for: 226 Records Inc (TX)
+[2025-05-02 15:37:35] Retry 1 for https://www.sec.gov/cgi-bin/browse-edgar?company=226+Records+Inc&owner=exclude&action=getcompany after 5 seconds (error: 403 Client Error: Forbidden for url: https://www.sec.gov/cgi-bin/browse-edgar?company=226+Records+Inc&owner=exclude&action=getcompany)
+[2025-05-02 15:37:41] Retry 2 for https://www.sec.gov/cgi-bin/browse-edgar?company=226+Records+Inc&owner=exclude&action=getcompany after 10 seconds (error: 403 Client Error: Forbidden for url: https://www.sec.gov/cgi-bin/browse-edgar?company=226+Records+Inc&owner=exclude&action=getcompany)
+[2025-05-02 15:37:52] Retry 3 for https://www.sec.gov/cgi-bin/browse-edgar?company=226+Records+Inc&owner=exclude&action=getcompany after 15 seconds (error: 403 Client Error: Forbidden for url: https://www.sec.gov/cgi-bin/browse-edgar?company=226+Records+Inc&owner=exclude&action=getcompany)
+[2025-05-02 15:38:08] Failed to fetch https://www.sec.gov/cgi-bin/browse-edgar?company=226+Records+Inc&owner=exclude&action=getcompany after 3 retries
+[2025-05-02 15:38:08] Completed data collection for 226 Records Inc. Saved raw data to c:\Users\nmeen\Documents\GitHub\ZenithCare\ETL\raw_data\226_Records_Inc_20250502_153808.json
+[2025-05-02 15:38:08] Starting LLM extraction...
+[2025-05-02 15:40:08] LLM extraction timed out after 2 minutes
+[2025-05-02 15:40:08] LLM extraction failed, using fallback data
+[2025-05-02 15:40:08] Completed processing for 226 Records Inc in 154.7 seconds (fetch: 34.7s, LLM: 120.0s). Found 1 locations.
+[2025-05-02 15:40:08] Wrote 1 rows to CSV
+[2025-05-02 15:40:08] 
+[8/10] Processing: 2225Taylor RS LLC
+[2025-05-02 15:40:08] 
+Starting processing for: 2225Taylor RS LLC (TX)
+[2025-05-02 15:40:08] Starting data collection for: 2225Taylor RS LLC (TX)
+[2025-05-02 15:40:09] Retry 1 for https://www.sec.gov/cgi-bin/browse-edgar?company=2225Taylor+RS+LLC&owner=exclude&action=getcompany after 5 seconds (error: 403 Client Error: Forbidden for url: https://www.sec.gov/cgi-bin/browse-edgar?company=2225Taylor+RS+LLC&owner=exclude&action=getcompany)
+[2025-05-02 15:40:16] Retry 2 for https://www.sec.gov/cgi-bin/browse-edgar?company=2225Taylor+RS+LLC&owner=exclude&action=getcompany after 10 seconds (error: 403 Client Error: Forbidden for url: https://www.sec.gov/cgi-bin/browse-edgar?company=2225Taylor+RS+LLC&owner=exclude&action=getcompany)
+[2025-05-02 15:40:27] Retry 3 for https://www.sec.gov/cgi-bin/browse-edgar?company=2225Taylor+RS+LLC&owner=exclude&action=getcompany after 15 seconds (error: 403 Client Error: Forbidden for url: https://www.sec.gov/cgi-bin/browse-edgar?company=2225Taylor+RS+LLC&owner=exclude&action=getcompany)
+[2025-05-02 15:40:43] Failed to fetch https://www.sec.gov/cgi-bin/browse-edgar?company=2225Taylor+RS+LLC&owner=exclude&action=getcompany after 3 retries
+[2025-05-02 15:40:43] Completed data collection for 2225Taylor RS LLC. Saved raw data to c:\Users\nmeen\Documents\GitHub\ZenithCare\ETL\raw_data\2225Taylor_RS_LLC_20250502_154043.json
+[2025-05-02 15:40:43] Starting LLM extraction...
+[2025-05-02 15:42:43] LLM extraction timed out after 2 minutes
+[2025-05-02 15:42:43] LLM extraction failed, using fallback data
+[2025-05-02 15:42:43] Completed processing for 2225Taylor RS LLC in 154.5 seconds (fetch: 34.5s, LLM: 120.0s). Found 1 locations.
+[2025-05-02 15:42:43] Wrote 1 rows to CSV
+[2025-05-02 15:42:43] 
+[9/10] Processing: 2220 San Jacinto Partners, LP
+[2025-05-02 15:42:43] 
+Starting processing for: 2220 San Jacinto Partners, LP (TX)
+[2025-05-02 15:42:43] Starting data collection for: 2220 San Jacinto Partners, LP (TX)
+[2025-05-02 15:42:44] Retry 1 for https://www.sec.gov/cgi-bin/browse-edgar?company=2220+San+Jacinto+Partners,+LP&owner=exclude&action=getcompany after 5 seconds (error: 403 Client Error: Forbidden for url: https://www.sec.gov/cgi-bin/browse-edgar?company=2220+San+Jacinto+Partners,+LP&owner=exclude&action=getcompany)
+[2025-05-02 15:42:50] Retry 2 for https://www.sec.gov/cgi-bin/browse-edgar?company=2220+San+Jacinto+Partners,+LP&owner=exclude&action=getcompany after 10 seconds (error: 403 Client Error: Forbidden for url: https://www.sec.gov/cgi-bin/browse-edgar?company=2220+San+Jacinto+Partners,+LP&owner=exclude&action=getcompany)
+[2025-05-02 15:43:01] Retry 3 for https://www.sec.gov/cgi-bin/browse-edgar?company=2220+San+Jacinto+Partners,+LP&owner=exclude&action=getcompany after 15 seconds (error: 403 Client Error: Forbidden for url: https://www.sec.gov/cgi-bin/browse-edgar?company=2220+San+Jacinto+Partners,+LP&owner=exclude&action=getcompany)
+[2025-05-02 15:43:18] Failed to fetch https://www.sec.gov/cgi-bin/browse-edgar?company=2220+San+Jacinto+Partners,+LP&owner=exclude&action=getcompany after 3 retries
+[2025-05-02 15:43:18] Completed data collection for 2220 San Jacinto Partners, LP. Saved raw data to c:\Users\nmeen\Documents\GitHub\ZenithCare\ETL\raw_data\2220_San_Jacinto_Partners,_LP_20250502_154318.json
+[2025-05-02 15:43:18] Starting LLM extraction...
+[2025-05-02 15:45:18] LLM extraction timed out after 2 minutes
+[2025-05-02 15:45:18] LLM extraction failed, using fallback data
+[2025-05-02 15:45:18] Completed processing for 2220 San Jacinto Partners, LP in 154.7 seconds (fetch: 34.7s, LLM: 120.0s). Found 1 locations.
+[2025-05-02 15:45:18] Wrote 1 rows to CSV
+[2025-05-02 15:45:18] 
+[10/10] Processing: 2295 Pine View Lane Holding LLC
+[2025-05-02 15:45:18] 
+Starting processing for: 2295 Pine View Lane Holding LLC (TX)
+[2025-05-02 15:45:18] Starting data collection for: 2295 Pine View Lane Holding LLC (TX)
+[2025-05-02 15:45:19] Retry 1 for https://www.sec.gov/cgi-bin/browse-edgar?company=2295+Pine+View+Lane+Holding+LLC&owner=exclude&action=getcompany after 5 seconds (error: 403 Client Error: Forbidden for url: https://www.sec.gov/cgi-bin/browse-edgar?company=2295+Pine+View+Lane+Holding+LLC&owner=exclude&action=getcompany)
+[2025-05-02 15:45:25] Retry 2 for https://www.sec.gov/cgi-bin/browse-edgar?company=2295+Pine+View+Lane+Holding+LLC&owner=exclude&action=getcompany after 10 seconds (error: 403 Client Error: Forbidden for url: https://www.sec.gov/cgi-bin/browse-edgar?company=2295+Pine+View+Lane+Holding+LLC&owner=exclude&action=getcompany)
+[2025-05-02 15:45:36] Retry 3 for https://www.sec.gov/cgi-bin/browse-edgar?company=2295+Pine+View+Lane+Holding+LLC&owner=exclude&action=getcompany after 15 seconds (error: 403 Client Error: Forbidden for url: https://www.sec.gov/cgi-bin/browse-edgar?company=2295+Pine+View+Lane+Holding+LLC&owner=exclude&action=getcompany)
+[2025-05-02 15:45:52] Failed to fetch https://www.sec.gov/cgi-bin/browse-edgar?company=2295+Pine+View+Lane+Holding+LLC&owner=exclude&action=getcompany after 3 retries
+[2025-05-02 15:45:52] Completed data collection for 2295 Pine View Lane Holding LLC. Saved raw data to c:\Users\nmeen\Documents\GitHub\ZenithCare\ETL\raw_data\2295_Pine_View_Lane_Holding_LLC_20250502_154552.json
+[2025-05-02 15:45:52] Starting LLM extraction...
+[2025-05-02 15:47:52] LLM extraction timed out after 2 minutes
+[2025-05-02 15:47:52] LLM extraction failed, using fallback data
+[2025-05-02 15:47:52] Completed processing for 2295 Pine View Lane Holding LLC in 154.5 seconds (fetch: 34.5s, LLM: 120.0s). Found 1 locations.
+[2025-05-02 15:47:52] Wrote 1 rows to CSV
+[2025-05-02 15:47:52] 
+=== Extraction Complete ===
+[2025-05-02 15:47:52] Processed 10 companies
+[2025-05-02 15:47:52] Extracted 10 total locations
+[2025-05-02 15:47:52] Average processing time: 142.7 seconds per company
+[2025-05-02 15:47:52] Total elapsed time: 1426.5 seconds
+[2025-05-02 15:47:52] Results saved to: c:\Users\nmeen\Documents\GitHub\ZenithCare\ETL\company_data_20250502_152405.csv
+[2025-05-02 15:47:52] Raw data saved to: c:\Users\nmeen\Documents\GitHub\ZenithCare\ETL\raw_data
+[2025-05-02 15:47:52] Log file: c:\Users\nmeen\Documents\GitHub\ZenithCare\ETL\extraction_log_20250502_152405.txt

@@ -1,0 +1,11 @@
+2025-05-01 08:48:27,030 [INFO] Extractor initialized.
+2025-05-01 08:48:27,031 [INFO] Reading companies from C:/Users/nmeen/Documents/GitHub/ZenithCare/ETL/companies.json
+2025-05-01 08:48:27,031 [INFO] Processing batch 1
+2025-05-01 08:48:27,032 [INFO] Searching info for: Stripe
+2025-05-01 08:48:27,033 [INFO] Searching info for: Palantir Technologies
+2025-05-01 08:48:27,033 [INFO] Searching info for: Snowflake Inc.
+2025-05-01 08:49:06,982 [ERROR] JSON parse error for Palantir Technologies: No JSON block found
+2025-05-01 08:49:47,564 [ERROR] JSON parse error for Stripe: No JSON block found
+2025-05-01 08:50:30,778 [WARNING] Ollama timed out
+2025-05-01 08:50:30,787 [INFO] Saved 3 records to data\company_info_20250501_084827.json
+2025-05-01 08:50:30,788 [INFO] All companies processed.

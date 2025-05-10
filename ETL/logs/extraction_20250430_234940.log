@@ -1,0 +1,6 @@
+2025-04-30 23:49:40,570 [INFO] Initialized company information extractor with llama3 model
+2025-04-30 23:49:40,571 [INFO] Using configuration: {'ollama_model': 'llama3', 'batch_size': 10, 'workers': 4, 'log_level': 'INFO', 'input_file': 'data/companies.csv', 'output_file': 'data/company_info.json', 'max_companies': None}
+2025-04-30 23:49:40,571 [INFO] Output directories created: c:\Users\nmeen\Documents\GitHub\ZenithCare\ETL\data, c:\Users\nmeen\Documents\GitHub\ZenithCare\ETL\raw_text
+2025-04-30 23:49:40,572 [INFO] Processing companies from data/companies.csv
+2025-04-30 23:49:40,572 [INFO] Results will be saved to data/company_info.json
+2025-04-30 23:49:40,572 [ERROR] Error reading input file data/companies.csv: [Errno 2] No such file or directory: 'data/companies.csv'

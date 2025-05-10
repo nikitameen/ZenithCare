@@ -1,0 +1,4 @@
+2025-04-30 23:54:19,023 [INFO] Initialized extractor with model: llama3
+2025-04-30 23:54:19,023 [INFO] Using configuration: {'ollama_model': 'llama3', 'batch_size': 10, 'workers': 4, 'log_level': 'INFO', 'input_file': 'data/companies.csv', 'output_file': 'data/company_info.json', 'max_companies': None}
+2025-04-30 23:54:19,024 [INFO] Loading companies from data/companies.csv
+2025-04-30 23:54:19,025 [ERROR] Failed to read input JSON: [Errno 2] No such file or directory: 'data/companies.csv'
